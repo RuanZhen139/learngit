@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T03:47:26.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="nt7gO9q90WwGAfAe4oP6" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T05:21:27.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="kVt0EZB9mpoZLsPwCrIH" version="21.3.5" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -38,34 +38,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-15" value="SDMux(Mux)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="325" width="180" height="134" as="geometry" />
+          <mxGeometry x="160" y="316" width="220" height="134" as="geometry" />
         </mxCell>
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-39" value="def __init__(self, mux_board)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;self._mux_board" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-15">
-          <mxGeometry y="26" width="180" height="34" as="geometry" />
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-16" value="+ def connect_ts(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-15">
-          <mxGeometry y="60" width="180" height="24" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-16" value="+ def connect_ts(self,query_interval)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-15">
+          <mxGeometry y="60" width="220" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-17" value="+ def connect_dut(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-15">
-          <mxGeometry y="84" width="180" height="20" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-17" value="+ def connect_dut(self,query_interval&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-15">
+          <mxGeometry y="84" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-18" value="+ def&amp;nbsp; get_state(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-15">
-          <mxGeometry y="104" width="180" height="30" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-18" value="+ def&amp;nbsp; get_state(self) -&amp;gt; Mux.State" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-15">
+          <mxGeometry y="104" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-19" value="USBMux(Mux)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="310" width="170" height="140" as="geometry" />
+          <mxGeometry x="680" y="310" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-40" value="def __init__(self, mux_board)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;self._mux_board" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-19">
-          <mxGeometry y="26" width="170" height="40" as="geometry" />
+          <mxGeometry y="26" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-20" value="+ def connect_ts(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-19">
-          <mxGeometry y="66" width="170" height="24" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-20" value="+ def connect_ts(self,query_interval&lt;br&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-19">
+          <mxGeometry y="66" width="230" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-21" value="+ def connect_dut(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-19">
-          <mxGeometry y="90" width="170" height="20" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-21" value="+ def connect_dut(self,query_interval&lt;br&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-19">
+          <mxGeometry y="90" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-22" value="+ def&amp;nbsp; get_state(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-19">
-          <mxGeometry y="110" width="170" height="30" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-22" value="+ def&amp;nbsp; get_state(self) -&amp;gt; Mux.State" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-19">
+          <mxGeometry y="110" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="jn_FHhXMFAwmoSgKBp-Y-19">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -97,7 +97,7 @@
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-32" value="+ def query_mux(self)&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-25">
           <mxGeometry y="232" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-30" value="+ def act_port(self, to_state,query_interval, port)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-25">
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-30" value="+ def act_port(self, port, to_state,query_interval)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-25">
           <mxGeometry y="258" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-28" value="+ def query_port(self, port)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-25">
@@ -117,19 +117,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-35" value="Conn(Switch)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="310" width="160" height="140" as="geometry" />
+          <mxGeometry x="430" y="296" width="210" height="154" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-41" value="def __init__(self, mux_board)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;self._mux_board" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-35">
-          <mxGeometry y="26" width="160" height="40" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-41" value="def __init__(self, mux_board, port)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;self._mux_board&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;self._port" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-35">
+          <mxGeometry y="26" width="210" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-36" value="+ def on(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-35">
-          <mxGeometry y="66" width="160" height="24" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-36" value="+ def on(self,query_interval)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-35">
+          <mxGeometry y="80" width="210" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-37" value="+ def off(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-35">
-          <mxGeometry y="90" width="160" height="20" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-37" value="+ def off(self,query_interval&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-35">
+          <mxGeometry y="104" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-38" value="+ def&amp;nbsp; get_state(self)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-35">
-          <mxGeometry y="110" width="160" height="30" as="geometry" />
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-38" value="+ def&amp;nbsp; get_state(self) -&amp;gt; Switch.State" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-35">
+          <mxGeometry y="124" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-44" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;exitX=0.018;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -149,7 +149,7 @@
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-48" value="+ def&amp;nbsp;query_mux&lt;span style=&quot;background-color: initial;&quot;&gt;(self)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-45">
           <mxGeometry y="90" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-49" value="+ def&amp;nbsp;operate_port&lt;span style=&quot;background-color: initial;&quot;&gt;(self, to_state, port)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-45">
+        <mxCell id="jn_FHhXMFAwmoSgKBp-Y-49" value="+ def&amp;nbsp;operate_port(self, port, to_state,query_interval&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-45">
           <mxGeometry y="116" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jn_FHhXMFAwmoSgKBp-Y-50" value="+ def query_port(self, port)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jn_FHhXMFAwmoSgKBp-Y-45">

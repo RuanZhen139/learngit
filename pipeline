@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T05:44:06.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="5wJc9dmMAISchRKbfbIS" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T05:46:19.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="O7nPL2NI6648U8c61r0Z" version="21.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="PezJUGLc77VCLpq3tEkR-1" value="gerrit_verify" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PezJUGLc77VCLpq3tEkR-1" value="gerrit_verify job" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="10" width="370" height="300" as="geometry">
             <mxRectangle x="10" y="10" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -42,7 +42,7 @@
         <mxCell id="PezJUGLc77VCLpq3tEkR-11" value="test: bitfile_yaml smoke_scope cl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PezJUGLc77VCLpq3tEkR-1">
           <mxGeometry x="70" y="250" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PezJUGLc77VCLpq3tEkR-13" value="daily build" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PezJUGLc77VCLpq3tEkR-13" value="daily build job" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="10" width="370" height="300" as="geometry">
             <mxRectangle x="10" y="10" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -193,22 +193,15 @@
           <mxGeometry x="20" y="790" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PezJUGLc77VCLpq3tEkR-57" value="pango_suite_test:&amp;nbsp;lockable_lable suite_list smoke_scope cl&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="220" y="1250" width="400" height="430" as="geometry">
+          <mxGeometry x="220" y="1300" width="400" height="430" as="geometry">
             <mxRectangle x="10" y="10" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PezJUGLc77VCLpq3tEkR-58" value="getBoardLocationFromLockableLabel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PezJUGLc77VCLpq3tEkR-57">
-          <mxGeometry x="80" y="60" width="230" height="40" as="geometry" />
+          <mxGeometry x="70" y="60" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PezJUGLc77VCLpq3tEkR-59" value="getBoardResourceFromLockableLabel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PezJUGLc77VCLpq3tEkR-57">
           <mxGeometry x="70" y="130" width="250" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="PezJUGLc77VCLpq3tEkR-60" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PezJUGLc77VCLpq3tEkR-57" target="PezJUGLc77VCLpq3tEkR-59">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="179.5" y="100" as="sourcePoint" />
-            <mxPoint x="180" y="150" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="PezJUGLc77VCLpq3tEkR-61" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PezJUGLc77VCLpq3tEkR-57">
           <mxGeometry relative="1" as="geometry">
@@ -235,6 +228,19 @@
         </mxCell>
         <mxCell id="PezJUGLc77VCLpq3tEkR-79" value="./core/test_main.sh pango suite.txt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PezJUGLc77VCLpq3tEkR-57">
           <mxGeometry x="80" y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PezJUGLc77VCLpq3tEkR-84" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PezJUGLc77VCLpq3tEkR-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179.5" y="100" as="sourcePoint" />
+            <mxPoint x="180" y="130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PezJUGLc77VCLpq3tEkR-85" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="PezJUGLc77VCLpq3tEkR-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1230" as="sourcePoint" />
+            <mxPoint x="440" y="1220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
